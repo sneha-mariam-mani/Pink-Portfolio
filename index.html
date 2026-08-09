@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sneha's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header id="header">
+    <div class="deco-row">☆ ☆ ☆ ☆ ☆ ☆ ☆</div>
+    <h1>Sneha's Portfolio</h1>
+    <p class="subtitle">UI/UX Designer • Illustrator • CSE Student</p>
+    <div class="deco-row">☆ ☆ ☆ ☆ ☆ ☆ ☆</div>
+  </header>
+
+  <nav>
+    <a href="#home">home</a> |
+    <a href="#about">about me</a> |
+    <a href="#projects">projects</a> |
+    <a href="#gallery">art gallery</a> |
+    <a href="#contact">contact</a>
+  </nav>
+
+  <div class="fullpage">
+
+    <div class="sidebar">
+
+      <div class="box" id="home">
+        <div>
+          <img src="images/profile-pic.png" alt="Profile Picture" align="center" class="profile-pic" width="150" height="150">
+        </div>
+        <h2>Hi! I'm Sneha ☆</h2>
+        <p>
+          I'm a CSE student who loves UI/UX design, digital illustration,
+          and turning ideas into little visual experiences.
+        </p>
+        <p class="deco-row">☆ ☆ ☆ ☆ ☆ ☆</p>
+      </div>
+
+      <div class="box updates-box">
+        <h3>Currently Studying ☆ </h3>
+        <ul>
+          <li>☆ Learning HTML,CSS and JS</li>
+          <li>☆ Psychology of UX</li>
+          <li>☆ Mobile App Design</li>
+          <li>☆ Game UX</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <main>
+      <section class="box" id="about">
+        <h2>☆ about me ☆</h2>
+        <p>
+          Hi, I'm Sneha Mariam Mani, based in Trivandrum, Kerala. I'm currently a fourth-year 
+          Computer Science Engineering student and an aspiring User Experience Designer, 
+          learning and exploring the field since 2023.Alongside design, I enjoy creating illustrations 
+          and hope to use them to make digital experiences feel more playful, expressive, and memorable. 
+          I believe good design should feel simple, human, and enjoyable to use.
+        </p>
+      </section>
+
+      <section class="box" id="certifications">
+        <h2>☆ certifications ☆</h2>
+        <div class="project-grid">
+          <section class="project-card-small" align="center">Information Visualization</section><br>
+          <section class="project-card-small" align="center">Game UX</section><br>
+          <section class="project-card-small" align="center">Professional UX Certification</section><br>
+          <section class="project-card-small" align="center">Introduction to UI/UX Design</section><br>
+          <section class="project-card-small" align="center">Introduction to Web Development</section><br>
+        </div>
+      </section>
+
+      <section class="box" id="projects">
+        <h2>☆ my projects ☆</h2>
+        <div class="project-grid">
+
+          <div class="project-card">
+            <img src="images/irctc.png" alt="IRCTC Redesign Project Image" height="200" width="300">
+            <h3>IRCTC Redesign</h3>
+            <p>A cleaner, friendlier redesign concept for the IRCTC
+              booking experience, focused on simplicity.</p>
+          </div>
+
+          <div class="project-card">
+            <img src="images/nyaya-ai.png" alt="Nyaya AI Project Image" height="200" width="300">
+            <h3>Nyaya AI</h3>
+            <p>An interface concept for a legal aid AI assistant.</p>
+          </div>
+
+          <div class="project-card">
+            <img src="images/mrbakes.png" alt="Mr Bakes Donut Packaging Project Image" height="200" width="300">
+            <h3>Mr Bakes Donut Packaging</h3>
+            <p>A playful packaging and branding concept designed for donut cakes.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="box" id="skills">
+        <h2>☆ skills ☆</h2>
+        <ul >
+          <li>☆ UI/UX Design</li>
+          <li>☆ Figma</li>
+          <li>☆ Prototyping</li>
+          <li>☆ Digital Illustration</li>
+          <li>☆ Visual Design</li>
+          <li>☆ HTML &amp; CSS</li>
+        </ul>
+      </section>
+
+      <section class="box" id="gallery">
+        <h2>☆ art gallery ☆</h2>
+        <div class="gallery-grid">
+          <img src="images/art1.png" width="190" height="150" alt="Art 1" id="art">
+          <img src="images/art2.png" width="150" height="150" alt="Art 2" id="art">
+          <img src="images/art3.png" width="190" height="150" alt="Art 3" id="art">
+          <img src="images/art4.gif" width="190" height="130" alt="Art 4" id="art">
+        </div>
+      </section>
+
+      <section class="box" id="contact" align="center">
+        <h2>☆ contact me ☆</h2>
+        <p>I'd love to hear from you! Find me here:</p>
+        <form >
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          <label for="reason">Reason for Contact:</label><br>
+          <select id="type" name="type">
+            <option value="">Select Type</option>
+            <option value="student">Internship</option>
+            <option value="designer">Project</option>
+            <option value="developer">Hiring</option>
+          </select><br><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br><br>
+          <input type="submit" class="contact-btn">
+        </form>
+        <br><br>
+        
+      </section>
+      <footer class="box" id="footer" align="center"><div><a class="contact-btn" href="#header">Go back to top</a></div></footer>
+
+    </main>
+    
+  </div>
+
+</body>
+</html>

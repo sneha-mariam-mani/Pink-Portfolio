@@ -1,0 +1,169 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cfe8f7;
+  font-family:monospace;
+  color: #5a4a42;
+  font-size: 14px;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: #fde9f1;
+  background-image:url(images/header.jpg);
+  background-size: 100%;
+  background-position: center;
+  border-bottom: 4px solid #f7c6de;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header h1 {
+  color: #e87eab;
+  font-size: 34px;
+  margin: 5px 0;
+}
+
+.subtitle {
+  color: #7a6b9c;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.deco-row {
+  color: #f2a9c8;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+nav {
+  background-color: #f5eaf2;
+  border-bottom: 3px dashed #f7c6de;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+nav a {
+  color: #9b7bb8;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+nav a:hover {
+  color: #e87eab;
+  text-decoration: underline;
+}
+
+
+.fullpage {
+  display: flex;
+  max-width: 950px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+.sidebar {
+  width: 1000px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.box {
+  background-image:url(images/sidebg.jpg);
+  border: 2px solid #f7c6de;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.box h2 {
+  color: #e87eab;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.box h3 {
+  color: #9b7bb8;
+  font-size: 15px;
+}
+
+.updates-box {
+  background-image: url("images/sidebg.jpg");
+  border: 2px dashed #a9d8f5;
+}
+
+
+ul {
+  list-style-type: none;
+}
+   
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.project-card {
+  background-color: #f0ecf7;
+  border: 2px solid #b39cd8;
+  padding: 10px;
+  width: 47%;
+  box-sizing: border-box;
+}
+.project-card-small {
+  background-color: #f0ecf7;
+  border: 2px solid #b39cd8;
+  padding: 10px;
+  width: 45%;
+  box-sizing: border-box;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+#art{
+  border: 2px dashed #f7c6de;
+}
+
+
+
+.contact-btn {
+  background-color: #f7c6de;
+  color: #6b3f5e;
+  text-decoration: none;
+  padding: 8px 14px;
+  border: 2px solid #e87eab;
+  font-size: 13px;
+}
+
+.contact-btn:hover {
+  background-color: #e87eab;
+  color: #fff;
+}
+
+#certifications {
+  background-image:url(images/sidebg.jpg)
+}
+
+
+label {
+    color: #d85a91;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 50%;
+    height: 30px;
+    border: 1px solid #e89abb;
+}
+
+
+
+
+
